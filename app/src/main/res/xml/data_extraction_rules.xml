@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude all databases and shared preferences from Google Drive Cloud Backup -->
+        <exclude domain="database" path="notivault_database" />
+        <exclude domain="sharedpref" path="notivault_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- Allow encrypted transfer between user's own physical devices via cable/Wi-Fi Direct -->
+        <include domain="database" path="notivault_database" />
+    </device-transfer>
+</data-extraction-rules>

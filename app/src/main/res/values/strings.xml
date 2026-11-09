@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotiVault</string>
+    <string name="service_name">NotiVault Interceptor Service</string>
+    <string name="inbox_title">Notification Inbox</string>
+    <string name="rules_title">Per-App Rules</string>
+    <string name="settings_title">Vault Settings</string>
+</resources>
